@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Handling & Interactive Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Event Handling & Interactive Elements</h1>
+
+    <!-- Event Handling Section -->
+    <section id="event-handling">
+        <h2>Event Handling</h2>
+        <button id="clickButton">Click Me!</button>
+        <div id="hoverBox">Hover over me!</div>
+        <input type="text" id="keypressInput" placeholder="Type something...">
+        <div id="doubleClickBox">Double-click me for a secret!</div>
+    </section>
+
+    <!-- Interactive Elements Section -->
+    <section id="interactive-elements">
+        <h2>Interactive Elements</h2>
+        <button id="colorButton">Change Color</button>
+        <div id="imageGallery">
+            <img src="https://plus.unsplash.com/premium_photo-1684508638760-72ad80c0055f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWlyYm5ifGVufDB8fDB8fHww/150" alt="Image 1">
+            <img src="https://images.unsplash.com/photo-1614649024145-7f847b1c803f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWlyYm5ifGVufDB8fDB8fHww/150" alt="Image 2">
+            <img src="https://plus.unsplash.com/premium_photo-1684338795288-097525d127f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWlyYm5ifGVufDB8fDB8fHww/150" alt="Image 3">
+        </div>
+        <div id="tabs">
+            <button class="tab-button active" data-tab="tab1">Tab 1</button>
+            <button class="tab-button" data-tab="tab2">Tab 2</button>
+            <button class="tab-button" data-tab="tab3">Tab 3</button>
+            <div class="tab-content" id="tab1">Content for Tab 1</div>
+            <div class="tab-content" id="tab2">Content for Tab 2</div>
+            <div class="tab-content" id="tab3">Content for Tab 3</div>
+        </div>
+    </section>
+
+    <!-- Form Validation Section -->
+    <section id="form-validation">
+        <h2>Form Validation</h2>
+        <form id="validationForm">
+            <input type="text" id="name" placeholder="Name (required)" required>
+            <input type="email" id="email" placeholder="Email (required)" required>
+            <input type="password" id="password" placeholder="Password (min 8 chars)" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
